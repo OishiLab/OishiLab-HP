@@ -9,7 +9,7 @@ import News from './pages/News';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/OishiLab-HP">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
