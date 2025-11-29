@@ -15,7 +15,7 @@ const Home: React.FC = () => {
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/logo/top.png)' }}
+          style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/logo/top.png)` }}
         >
           {/* Dark Overlay for text readability */}
           <div className="absolute inset-0 bg-slate-900/85"></div>

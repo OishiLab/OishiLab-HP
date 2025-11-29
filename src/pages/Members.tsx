@@ -24,7 +24,7 @@ const Members: React.FC = () => {
             <div key={index} className="flex flex-col md:flex-row gap-8 items-start bg-slate-50 p-8 rounded-2xl border border-slate-100 mb-8">
               <div className="w-full md:w-1/5 aspect-[3/4] bg-slate-200 rounded-xl flex items-center justify-center shrink-0 overflow-hidden">
                 {prof.photo ? (
-                  <img src={prof.photo} alt={prof.name} className="w-full h-full object-cover" />
+                  <img src={prof.photo.startsWith('/') ? `${import.meta.env.BASE_URL}${prof.photo.slice(1)}` : `${import.meta.env.BASE_URL}${prof.photo}`} alt={prof.name} className="w-full h-full object-cover" />
                 ) : (
                   <span className="text-slate-400">Professor Photo</span>
                 )}
@@ -89,7 +89,7 @@ const Members: React.FC = () => {
                   <div key={i} className="group text-center">
                     <div className="aspect-square bg-slate-100 rounded-full mb-4 mx-auto overflow-hidden border-2 border-transparent group-hover:border-accent transition-colors w-40 h-40 flex items-center justify-center">
                       {member.photo ? (
-                         <img src={member.photo} alt={member.name} className="w-full h-full object-cover" />
+                         <img src={member.photo.startsWith('/') ? `${import.meta.env.BASE_URL}${member.photo.slice(1)}` : `${import.meta.env.BASE_URL}${member.photo}`} alt={member.name} className="w-full h-full object-cover" />
                       ) : (
                         <span className="text-xs text-slate-400">Photo</span>
                       )}

@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
                 {/* Project Image */}
                 <div className="h-48 bg-slate-200 w-full flex items-center justify-center overflow-hidden">
                   {project.image ? (
-                    <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                    <img src={project.image.startsWith('/') ? `${import.meta.env.BASE_URL}${project.image.slice(1)}` : `${import.meta.env.BASE_URL}${project.image}`} alt={project.title} className="w-full h-full object-cover" />
                   ) : (
                     <span className="text-slate-400 font-medium">Project Image Placeholder</span>
                   )}
@@ -87,7 +87,7 @@ const Projects: React.FC = () => {
             <div className="p-6">
               {selectedProject.image && (
                 <div className="mb-6 rounded-lg overflow-hidden flex justify-center">
-                  <img src={selectedProject.image} alt={selectedProject.title} className="max-w-2xl w-full h-auto" />
+                  <img src={selectedProject.image.startsWith('/') ? `${import.meta.env.BASE_URL}${selectedProject.image.slice(1)}` : `${import.meta.env.BASE_URL}${selectedProject.image}`} alt={selectedProject.title} className="max-w-2xl w-full h-auto" />
                 </div>
               )}
               

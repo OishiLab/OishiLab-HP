@@ -28,7 +28,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <div className="flex">
               <Link to="/" className="flex-shrink-0 flex items-center gap-2 group">
                 <img 
-                  src="/images/logo/jhu.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/logo/jhu.jpg`}
                   alt="JHU Logo" 
                   className="h-10 w-auto"
                 />
