@@ -1,0 +1,84 @@
+{
+  "pi": [
+    {
+      "name": "Prof. Kenichi Oishi",
+      "role": "Principal Investigator, MD, PhD",
+      "bio": "Dr. Kenichi Oishi is a Professor in the Department of Radiology and Radiological Science and the Department of Neurology at Johns Hopkins Medicine. His expertise lies in neuroimaging, neurology, and neuroscience, focusing on magnetic resonance imaging and neuroinformatic technologies.",
+      "researchAreas": ["Compressive Sensing", "Video Coding", "Image Processing"],
+      "email": "koishi2@jhmi.edu",
+      "photo": "/images/members/kenichi_oishi.jpg",
+      "publications": [
+        {
+          "title": "Google Scholar",
+          "link": "https://scholar.google.com/citations?user=EK0euHsAAAAJ&hl=en"
+        }
+      ]
+    }
+  ],
+  "members": [
+    {
+      "name": "Yuto Uchida",
+      "role": "MD, PhD",
+      "photo": "/images/members/yuto_uchida.jpg",
+      "publications": [
+        {
+          "title": "Google Scholar",
+          "link": "https://scholar.google.com/citations?user=rKPaAF4AAAAJ&hl=ja"
+        }
+      ]
+    },
+    {
+      "name": "Jill Chotiyanonta",
+      "role": "Data Analyst",
+      "photo": "/images/members/jill_chotiyanonta.jpeg"
+    },
+    {
+      "name": "Kei Nishimaki",
+      "role": "MS",
+      "photo": "/images/members/kei_nishimaki.jpg",
+      "publications": [
+        {
+          "title": "Google Scholar",
+          "link": "https://scholar.google.com/citations?user=iJPjUEkAAAAJ&hl=ja"
+        }
+      ]
+    },
+    {
+      "name": "Shuhei Tomoshige",
+      "role": "MS",
+      "photo": "/images/members/shuhei_tomoshige.JPG"
+    },
+    {
+      "name": "Vidith Phillips",
+      "role": "MD",
+      "photo": "/images/members/vidith_phillips.jpg",
+      "publications": [
+        {
+          "title": "Google Scholar",
+          "link": "https://scholar.google.com/citations?user=x6IlIFcAAAAJ&hl=en"
+        }
+      ]
+    },
+    {
+      "name": "Xin Li",
+      "role": "MS",
+      "photo": "/images/members/xin_li.JPG"
+    },
+    {
+      "name": "Xingyu Chen",
+      "role": "MS",
+      "photo": "/images/members/xingyu_chen.jpg"
+    },
+    {
+      "name": "Kengo Onda",
+      "role": "MD",
+      "photo": "/images/members/kengo_onda.jpg",
+      "publications": [
+        {
+          "title": "Google Scholar",
+          "link": "https://scholar.google.com/citations?user=GEXxaywAAAAJ&hl=ja"
+        }
+      ]
+    }
+  ]
+}

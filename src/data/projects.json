@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Diffusion Tensor Imaging (DTI) Research",
+    "category": "Neuroimaging",
+    "description": "Advanced research on Diffusion Tensor Imaging for brain connectivity analysis and neurological disorder diagnosis.",
+    "image": "/images/projects/dti.png"
+  },
+  {
+    "id": 2,
+    "title": "OpenMAP",
+    "category": "Neuroimaging",
+    "description": "Open-source multi-atlas parcellation project for brain image analysis.",
+    "image": "/images/projects/openmap.png"
+  }
+]
+
